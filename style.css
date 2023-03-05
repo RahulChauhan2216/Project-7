@@ -1,0 +1,685 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container .first {
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(interior.jpg);
+    background-size: cover;
+}
+
+#container .first nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container .first nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+#container .first nav li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#container .first nav h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 2px 0px;
+    margin-left: 30px;
+    color: white;
+}
+
+#container .first .logo {
+    display: flex;
+    padding: 10px;
+}
+
+#container .first .logo .fa-facebook-f {
+    padding-right: 10px;
+    padding-left: 30px;
+    color: white;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#container .first .logo .fa-phone {
+    margin-top: 16px;
+    color: orangered;
+}
+
+#container .first .logo p {
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+    margin-right: 30px;
+    margin-top: 11px;
+}
+
+#container .first .first_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-transform: capitalize;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+#container .first .first_head button{
+    padding: 10px 50px;
+    font-size: 15px;
+    background: orangered;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    margin-top: 18px;
+}
+
+
+
+#container .second{
+    height: 500px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+#container .second h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    width: fit-content;
+    border-bottom: 2px solid orangered;
+}
+
+#container .second .second_1{
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container .second .second_1 .second_2, .second_3, .second_4{
+    width: 31%;
+    height: 100%;
+}
+
+#container .second .second_1 .second_2 h2{
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    background: white;
+    margin: auto;
+    font-size: 25px;
+    text-transform: capitalize;
+    position: relative;
+    top:83.5%
+}
+
+#container .second .second_1 .second_3 h2, .second_4 h2{
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    background: white;
+    margin: auto;
+    font-size: 25px;
+    text-transform: capitalize;
+    position: relative;
+    top:83.5%
+}
+
+#container .second .second_1 .second_3{
+    margin: 0px 25px;
+}
+
+
+#container .second .second_1 .second_2{
+    background: url(inte1.jpg);
+    background-size: cover;
+}
+
+#container .second .second_1 .second_3{
+    background: url(inte2.jpg);
+    background-size: cover;
+}
+
+#container .second .second_1 .second_4{
+    background: url(inte3.jpg);
+    background-size: cover;
+}
+
+#container .second p{
+    margin: auto;
+    border: 2px solid orangered;
+    padding: 5px 20px;
+    width: 200px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+#container .third{
+    height: 360px;
+}
+
+#container .third h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 5px;
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+}
+
+#container .third .third_1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 230px;
+}
+
+#container .third .third_1 .th{
+    width: 25%;
+    height: 100%;
+}
+
+#container .third .third_1 .th .fa-thumbs-up, .fa-calendar-check, .fa-screwdriver-wrench, .fa-house-signal{
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#container .third .third_1 .th h2{
+    margin: 25px 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+#container .third .third_1 .th P{
+    width: 90%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+
+#container .forth{
+    height: 600px;
+    background: rgb(235, 235, 235);
+    border: 1px solid transparent;
+}
+
+#container .forth h1{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+}
+
+#container .forth .forth_1{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#container .forth .forth_1 .forth_2{
+    height: 50%;
+    width: 49%;
+    background: url(int1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forth .forth_1 .forth_3{
+    height: 50%;
+    width: 24%;
+    background: url(int2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forth .forth_1 .forth_4{
+    height: 50%;
+    width: 24%;
+    background: url(int3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forth .forth_1 .forth_5{
+    height: 50%;
+    width: 24%;
+    background: url(int4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forth .forth_1 .forth_6{
+    height: 50%;
+    width: 24%;
+    background: url(int5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forth .forth_1 .forth_7{
+    height: 50%;
+    width: 49%;
+    background: url(int6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#container .fifth{
+    height: 800px;
+    border: 1px solid transparent;
+    background: linear-gradient(to top,rgb(255, 69, 0)65%,rgb(255,255,255)35%);
+    text-align: center;
+    border: none;
+}
+
+#container .fifth h1{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 5px;
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+}
+
+#container .fifth .fifth_1{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    background: url(kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container .fifth h2{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 55px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#container .fifth .fifth_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    color: white;
+}
+
+#container .fifth .fifth_2 p{
+    font-size: 19px;
+    margin: 0px 10px;
+}
+
+#container .fifth .fifth_2 .fa-envelope{
+    margin-left: 40px;
+}
+
+#container .fifth button{
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 15px;
+    background: black;
+    text-transform: capitalize;
+    color: white;
+}
+
+#container .six{
+    height: 700px;
+    border: none;
+}
+
+#container .six h1{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 5px;
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+}
+
+#container .six .six_1{
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+}
+
+#container .six .six_1 .six_2{
+    width: 70%;
+    height: 100%;
+    margin-right: 20px;
+    background: url(color.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .six .six_1 .six_3{
+    width: 30%;
+    height: 100%;
+}
+
+#container .six .six_1 .six_3 h2{
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+#container .six .six_1 .six_3 h6{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 25px 0px;
+    color: orangered;
+}
+
+#container .six .six_1 .six_3 p{
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+#container .six .six_1 .six_3 button{
+    padding: 10px 50px;
+    font-size: 15px;
+    background: white;
+    text-transform: capitalize;
+    color: black;
+    border: 2px solid orangered;
+    margin-top: 18px;
+}
+
+#container .six .six_4{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 150px;
+    margin-top: 25px;
+}
+
+#container .six .six_4 .six_5, .six_8, .six_11{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+
+#container .six .six_4 .six_5 .six_6, .six_8 .six_9, .six_11 .six_12{
+    width: 80%;
+    height: 100%; 
+    margin-right: 30px;
+}
+
+#container .six .six_4 .six_5 .six_7 h3,.six_8 .six_10 h3,.six_11 .six_13 h3{
+    line-height: 25px;
+    font-size: 21px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+#container .six .six_4 .six_5 .six_7 h6,.six_8 .six_10 h6,.six_11 .six_13 h6 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: orangered;
+}
+
+#container .six .six_4 .six_8{
+    margin: 0px 25px;
+}
+
+#container .six .six_4 .six_5 .six_6 {
+    background: url(inte1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#container .six .six_4 .six_8 .six_9 {
+    background: url(inte2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .six .six_4 .six_11 .six_12 {
+    background: url(inte3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#container .seven{
+    height: 500px;
+}
+
+#container .seven h1{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 5px;
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+}
+
+#container .seven .seven_1{
+    width: 70%;
+    height: 350px;
+    border: 2px solid gray;
+    margin: auto;
+    background: url(interior.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .eight{
+    height: 600px;
+    background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url(int3.jpg);
+    border: 1px solid transparent;
+}
+
+#container .eight h1{
+    display: block;
+    font-size: 30px;
+    margin: 45px 15%;
+    text-transform: capitalize;
+}
+
+#container .eight .ei{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+#container .eight .ei .eight_1,.eight_2{
+    width: 50%;
+}
+
+#container .eight .ei .eight_1{
+    margin-right: 45px;
+}
+
+#container .eight .ei h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+#container .eight .ei p{
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+
+#container .nine{
+    height: 300px;
+    background: black;
+    color: white;
+    border: 1px solid transparent;
+    border-bottom: 5px solid orangered;
+}
+
+#container .nine .nine_1{
+    width: 70%;
+    margin: 45px 15%;
+    display: flex;
+}
+
+#container .nine .nine_1 .nine_2{
+    width: 20%;   
+}
+
+#container .nine .nine_1 .nine_3{
+    width: 20%;   
+}
+
+#container .nine .nine_1 .nine_4{
+    width: 20%;   
+}
+
+#container .nine .nine_1 .nine_5{
+    width: 40%;   
+}
+
+#container .nine .nine_1 .nine_2 h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 60%;
+    margin-top: 5px;
+}
+
+#container .nine .nine_1 .nine_2 h1 span{
+    padding: 2px 5px;
+    background: white;
+    color: black;
+    margin-right: 2px;
+}
+
+#container .nine .nine_1 .nine_2 p{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#container .nine .nine_1 .nine_3 h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#container .nine .nine_1 .nine_3{
+    margin-right: 45px;
+}
+
+#container .nine .nine_1 .nine_3 .fa-solid, .fa-brands{
+    font-size: 15px;
+    color: orangered;
+    padding: 10px;
+}
+
+#container .nine .nine_1 .nine_3 p{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+#container .nine .nine_1 .nine_4 h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#container .nine .nine_1 .nine_4 p{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#container .nine .nine_1 .nine_5 h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#container .nine .nine_1 .nine_5 .nn{
+    display: flex;
+    height: 70%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#container .nine .nine_1 .nine_5 .nn .ne{
+    height: 47%;
+    width: 31.5%;
+}
+
+#container .nine .nine_1 .nine_5 .nn .nine_7{
+    background: url(int1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .nine .nine_1 .nine_5 .nn .nine_8{
+    background: url(int2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .nine .nine_1 .nine_5 .nn .nine_9{
+    background: url(int3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .nine .nine_1 .nine_5 .nn .nine_10{
+    background: url(int4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .nine .nine_1 .nine_5 .nn .nine_11{
+    background: url(int5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .nine .nine_1 .nine_5 .nn .nine_12{
+    background: url(int6.jpg);
+    background-size: cover;
+    background-position: center;
+}
